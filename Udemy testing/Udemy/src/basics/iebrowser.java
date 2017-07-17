@@ -1,23 +1,17 @@
 package basics;
 
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class Helloworld {
+public class iebrowser {
 
-	public static void main(String[] args) 
-	{
-		//Calling the Chrome driver.
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
-	    //Creating the new Driver and Calling the chrome Driver.
+	public static void main(String[] args) {
+        System.setProperty("webdriver.ie.driver","E:\\IEDriverServer.exe");
+		WebDriver driver=new InternetExplorerDriver();
 		
-		WebDriver driver=new ChromeDriver();
-	    //Navigation to the Lmss.
 		driver.navigate().to("http://lms.qspl.co.in/login.aspx");
-        		        
+        
         //Finding the user name text field and placing the user name in the appropriate field.
         driver.findElement(By.id("ctl00_ContentPlaceHolder1_txtusername")).sendKeys("admin");
         
@@ -54,8 +48,7 @@ public class Helloworld {
 	
 	}
 	
-	
-	
-	
 
-}
+	}
+
+
