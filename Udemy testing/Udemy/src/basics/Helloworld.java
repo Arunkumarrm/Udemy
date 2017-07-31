@@ -15,7 +15,7 @@ public class Helloworld {
 	    //Creating the new Driver and Calling the chrome Driver.
 		
 		WebDriver driver=new ChromeDriver();
-	    //Navigation to the Lmss.
+	    //Navigation to the Library management system web site.
 		driver.navigate().to("http://lms.qspl.co.in/login.aspx");
         		        
         //Finding the user name text field and placing the user name in the appropriate field.
