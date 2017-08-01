@@ -41,7 +41,7 @@ public class Marvelupdate {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		jse.executeScript("scroll(0,-250);");
     	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    	//This line of code is to 
+    	//This lines of code is to access the elements by its id property.
 		driver.findElement(By.id("txt_Add")).clear();
 		driver.findElement(By.id("txt_Add")).sendKeys("MSC Information");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
