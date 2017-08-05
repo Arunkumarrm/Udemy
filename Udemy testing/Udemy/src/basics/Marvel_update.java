@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Marvel_update {
 	
-	public static void Update_departement()
+	public static void Update_department()
 	{   
 		//This line of code is calling the calling the chrome driver.
 		System.setProperty("webdriver.chrome.driver","E:\\\\chromedriver.exe");
@@ -50,6 +50,6 @@ public class Marvel_update {
 	}
     	
 	public static void main(String[] args) {
-		Marvel_update.Update_departement();
+		Marvel_update.Update_department();
 	}
 }
