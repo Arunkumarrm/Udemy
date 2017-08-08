@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Helloworld {
 
-	public static void main(String[] args) 
+	public static void Library_Version1_login() 
 	{
 		//Calling the Chrome driver.
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
@@ -27,7 +27,7 @@ public class Helloworld {
         //Finding the Login button and putting click action on Login button.
         driver.findElement(By.id("ctl00_ContentPlaceHolder1_btnlogin")).click();
   
-        //Finding the Book Lend icon and click.
+        /*Finding the Book Lend icon and click.
         driver.findElement(By.id("NavSetting")).click();
         
         //Finding the Borrow Book and click on it.
@@ -48,13 +48,15 @@ public class Helloworld {
         else
         {
 	    	  System.out.println("The test is failed");
-	    }
+	    }*/
         
 	    
 	
 	}
 	
-	
+	public static void main(String[] args) {
+		Helloworld.Library_Version1_login();
+	}
 	
 	
 
