@@ -27,7 +27,7 @@ public class Marvel_update {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		//This line of code is to find an web element using the Xpath.
-		driver.findElement(By.xpath("(//a[contains(text(),'Edit')])[80]")).click();
+		driver.findElement(By.xpath(".//*[@id='tableData']/tbody/tr[79]/td[2]/a")).click();
 		
 	    //This part of the code is to scroll up so that webdriver can find the web element.    
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
