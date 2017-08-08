@@ -14,9 +14,9 @@ public class Facebooklogin {
 		WebDriver driver=new ChromeDriver();
 		driver.navigate().to("https://www.facebook.com/login/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(By.id("email")).sendKeys("");
+        driver.findElement(By.id("email")).sendKeys("marun7m@gmail.com");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(By.id("pass")).sendKeys("");
+        driver.findElement(By.id("pass")).sendKeys("flowchartk7861");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.id("loginbutton")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
