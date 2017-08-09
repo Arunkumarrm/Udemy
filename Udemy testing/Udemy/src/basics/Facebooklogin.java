@@ -23,7 +23,7 @@ public class Facebooklogin {
         driver.findElement(By.id("userNavigationLabel")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath(".//*[@id='js_s']/div/div/ul/li[12]/a/span/span")).click();
-        driver.close();
+        
 	}
 public static void main(String[] args) {
 	Facebooklogin.loggin();
