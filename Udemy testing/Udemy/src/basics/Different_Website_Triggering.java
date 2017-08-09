@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 public class Different_Website_Triggering {
 
-	@Test (priority=1) 
+	/*@Test (priority=1) 
 	public void test1(){
 		Facebooklogin.loggin();		
-		}
+		}*/
 	@Test (priority=2)
     public void test2()
     {
@@ -26,9 +26,9 @@ public class Different_Website_Triggering {
 		Marvel_update.Update_department();
 	}
 	
-	@Test (priority=5)
+	/*@Test (priority=5)
 	public void test5()
 	{
 		New_Exercise_01.Add_cart();
-	}
+	}*/
 }
